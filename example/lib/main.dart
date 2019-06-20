@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: ListView(children: [
             LayoutBuilder(
               builder: (context, c) => TextJustifyRTL(
-                para,
+                para, 
                 textDirection: TextDirection.rtl,
                 style: Theme.of(context).textTheme.subtitle,
                 boxConstraints: c,
